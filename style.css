@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,27 +7,27 @@
 @font-face {
     font-family: myFirstFont;
     src: url(./font/digital-7.ttf);
-  }
+}
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50%;
     transform: translateY(-50%);
-    
+
 }
 
-.calc  {
-    background-color: rgb(40,40,40);
+.calc {
+    background-color: rgb(40, 40, 40);
     width: 300px;
     height: 500px;
-    border: 2px solid rgb(40,40,40);
-    border-radius: 15px; 
+    border: 2px solid rgb(40, 40, 40);
+    border-radius: 15px;
     overflow: hidden;
 }
 
-.screen{
+.screen {
     background-color: #ffffff;
     width: 100%;
     height: 25%;
@@ -43,50 +43,53 @@
 
 }
 
-.row{
+.row {
     width: 100%;
-    display:flex;
+    display: flex;
     height: 15%;
 }
 
-.buttons{
+.buttons {
     height: 101%;
 }
 
-.row :last-child{
-    background-color: rgb(98,98,98);
-   
+.row :last-child {
+    background-color: rgb(98, 98, 98);
+
 }
 
-.btn{
-    background-color: rgb(68,68,68);
+.btn {
+    background-color: rgb(68, 68, 68);
     color: white;
     font-size: 25px;
-    font-weight: lighter ;
+    font-weight: lighter;
     font-family: 'Open Sans', sans-serif;
 }
 
-.btn:hover{
-    background-color: rgb(78,78,78);
+.btn:hover {
+    background-color: rgb(78, 78, 78);
 }
-.btn:active{
-    background-color: rgb(88,88,88);
+
+.btn:active {
+    background-color: rgb(88, 88, 88);
 }
-.clear{
+
+.clear {
     width: 50%;
 }
-.key{
+
+.key {
     width: 25%;
 }
-.zero{
-    width: 75%;
+
+.zero {
+    width: 50%;
 }
 
-button{
-    border: 1px solid rgb(48,48,48);
+button {
+    border: 1px solid rgb(48, 48, 48);
 }
-button:focus {outline:0;}
 
-
-
-
+button:focus {
+    outline: 0;
+}
